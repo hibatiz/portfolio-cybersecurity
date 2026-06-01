@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-cyber-bg: #030712;
+  --color-cyber-dark: #070b13;
+  --color-cyber-card: #0c1220;
+  --color-cyber-border: #1e293b;
+  --color-cyber-green: #10b981;
+  --color-cyber-cyan: #22d3ee;
+  
+  --font-sans: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  
+  --animate-scanline: scanline 8s linear infinite;
+  --animate-pulse-slow: pulse-slow 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes scanline {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+/* Custom scrollbar and grid patterns */
+@layer base {
+  body {
+    background-color: var(--color-cyber-bg);
+    color: #e2e8f0;
+    overflow-x: hidden;
+    font-family: var(--font-sans);
+  }
+  
+  /* Cyber Grid Background overlay */
+  .cyber-grid {
+    background-size: 40px 40px;
+    background-image: 
+      linear-gradient(to right, rgba(34, 211, 238, 0.02) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(34, 211, 238, 0.02) 1px, transparent 1px);
+  }
+  
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: var(--color-cyber-bg);
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #1e293b;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--color-cyber-cyan);
+  }
+}
+
+/* Glow utility classes */
+.glow-cyan {
+  box-shadow: 0 0 15px rgba(34, 211, 238, 0.2);
+}
+.glow-cyan-sm {
+  box-shadow: 0 0 8px rgba(34, 211, 238, 0.12);
+}
+.glow-green {
+  box-shadow: 0 0 15px rgba(16, 185, 129, 0.2);
+}
+.glow-text-cyan {
+  text-shadow: 0 0 8px rgba(34, 211, 238, 0.5);
+}
+.glow-text-green {
+  text-shadow: 0 0 8px rgba(16, 185, 129, 0.5);
+}
+
+/* Custom digital scanning scanline class */
+.cyber-scanline {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, transparent, rgba(34, 211, 238, 0.3), transparent);
+  animation: var(--animate-scanline);
+  pointer-events: none;
+  z-index: 10;
+}

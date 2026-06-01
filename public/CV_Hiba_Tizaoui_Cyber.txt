@@ -1,0 +1,54 @@
+================================================================================
+HIBA TIZAOUI - EXPERT EN CYBERSECURITE & DEVELOPPEMENT SECURISE
+================================================================================
+Contact: tizaoul.hiba04@gmail.com
+Localisation: Toulouse, France / Remote
+GitHub: https://github.com/tizaouli-hiba
+LinkedIn: https://linkedin.com/in/hiba-tizaoui
+--------------------------------------------------------------------------------
+
+[PROFILE SUMMARY]
+Etudiante en Cybersécurité et Développeuse Full-Stack motivée. Double compétence
+en renforcement système (hardening), filtrage réseau (Blue Team) et conception
+d'architectures applicatives MVC sécurisées.
+
+--------------------------------------------------------------------------------
+[PARCOURS ACADEMIQUE & FORMATION]
+
+* Septembre 2026 - Master en Cybersécurité (Prévu)
+  - Approfondissement en audit de sécurité, cryptographie, et réponse aux incidents.
+
+* 2024 - Présent : Bachelor en Cybersécurité (ESGI)
+  - Spécialisation en sécurité défensive (Blue Team), analyse réseau et IDS.
+
+* En cours de préparation : Cycle d'Ingénieur
+  - Consolidation des acquis scientifiques et méthodologies de gestion de projet.
+
+* 2022 - 2024 : BTS Services Informatiques aux Organisations (SIO)
+  - Option Solutions Logicielles et Applications Métiers (SLAM).
+  - Fondations solides en développement web, Java, bases de données et UML.
+
+--------------------------------------------------------------------------------
+[COMPETENCES TECHNIQUES]
+
+- CYBERSECURITE: IDS/IPS (Snort), Wireshark/Tshark, Hardening Linux, Analyse logs
+- RESEAUX: Configuration Cisco CCNA (OSPF, VLANs, ACLs), VMware
+- DEVELOPPEMENT: Python, Java, PHP (Laravel), HTML/CSS/JS
+- BASES DE DONNEES: SQL (MySQL, PostgreSQL), NoSQL (MongoDB)
+- OUTILS: Git, GitHub, Docker, Méthodes Agiles (Scrum)
+
+--------------------------------------------------------------------------------
+[PROJETS RECENT]
+
+1. Sécurisation d'un Serveur Bastion (Jump Server)
+   - Configuration SSH durcie, isolation réseau lab, double authentification.
+   
+2. Application de Gestion de Pharmacie
+   - Conception d'un modèle d'accès sécurisé (RBAC) en Java avec bases de données SQL.
+   
+3. Système de Location de Trottinettes
+   - Plateforme MVC sous Laravel avec contrôle de sécurité et validation d'API.
+
+================================================================================
+[SYS_EOF] -- FICHIER GENERE AVEC SUCCES.
+================================================================================

@@ -101,7 +101,7 @@ export default function About() {
             {/* Download CV CTA */}
             <div className="pt-4">
               <a
-                href="/CV HIBA TIZAOUI.pdf"
+                href="./CV_Hiba_Tizaoui.pdf"
                 download="CV_Hiba_Tizaoui.pdf"
                 className="inline-flex items-center gap-2.5 px-6 py-3.5 bg-transparent hover:bg-cyber-cyan/10 border border-cyber-cyan hover:border-cyan-400 text-cyber-cyan hover:text-white font-mono font-bold text-xs tracking-wider uppercase rounded glow-cyan-sm hover:glow-cyan transition-all duration-300 cursor-pointer"
               >

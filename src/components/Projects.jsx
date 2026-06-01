@@ -10,7 +10,7 @@ export default function Projects() {
       category: "Stage // MAO CONSEILS",
       description: "Conception et implémentation d'une application interne robuste de centralisation des profils, affectations opérationnelles et compétences des collaborateurs.",
       stack: ["Java Spring Boot", "REST API", "React"],
-      image: "/Projects/STAGE MAO CONSEILS.png"
+      image: "./Projects/STAGE MAO CONSEILS.png"
     },
     {
       id: "STAGE-02",
@@ -18,7 +18,7 @@ export default function Projects() {
       category: "Stage // CHU Oujda",
       description: "Développement d'un module sécurisé de suivi et de traitement interne des candidatures administratives et médicales au CHU d'Oujda.",
       stack: ["PHP", "JavaScript", "HTML/CSS", "SQL"],
-      image: "/Projects/STAGE CHU.png"
+      image: "./Projects/STAGE CHU.png"
     },
     {
       id: "STAGE-03",
@@ -26,7 +26,7 @@ export default function Projects() {
       category: "Stage // ORMVAM",
       description: "Création d'une interface automatisée pour la facturation et l'édition de rapports financiers sur l'écoulement des stocks agricoles.",
       stack: ["PHP", "MySQL", "Bootstrap"],
-      image: "/Projects/STAGE ORMVAM.png"
+      image: "./Projects/STAGE ORMVAM.png"
     }
   ];
 
@@ -76,7 +76,7 @@ export default function Projects() {
       category: "Projet Académique",
       description: "Conception d'une plateforme sécurisée de référencement, réservation et emprunt de livres avec système d'alerte automatisé.",
       stack: ["Symfony", "PHP", "Bootstrap", "MySQL"],
-      image: "/Projects/Bibliothèque en Ligne.png"
+      image: "./Projects/Bibliotheque en Ligne.png"
     },
     {
       id: "ACAD-03",
@@ -84,7 +84,7 @@ export default function Projects() {
       category: "Projet Académique",
       description: "Développement d'une application web de partage de fiches culinaires et d'alimentation équilibrée avec calculs automatiques.",
       stack: ["Django", "Python", "SQLite"],
-      image: "/Projects/Gestionnaire de Recettes.png"
+      image: "./Projects/Gestionnaire de Recettes.png"
     },
     {
       id: "ACAD-04",
@@ -92,7 +92,7 @@ export default function Projects() {
       category: "Projet Académique",
       description: "Création d'un système MVC complet de gestion de comptes, tracking de trajets et facturation de trottinettes électriques en libre-service.",
       stack: ["Laravel", "PHP", "MySQL", "Tailwind CSS"],
-      image: "/Projects/Système de Location de Trottinettes.png"
+      image: "./Projects/Systeme de Location de Trottinettes.png"
     },
     {
       id: "ACAD-05",
@@ -100,7 +100,7 @@ export default function Projects() {
       category: "Projet Académique",
       description: "Développement d'une application robuste de gestion de prescriptions et stocks avec contrôle d'accès basé sur les rôles (RBAC).",
       stack: ["Java", "SQL", "Swing", "RBAC"],
-      image: "/Projects/Application Gestion de PharmaciE.png"
+      image: "./Projects/Application Gestion de PharmaciE.png"
     },
     {
       id: "ACAD-06",
@@ -108,7 +108,7 @@ export default function Projects() {
       category: "Projet Académique",
       description: "Conception et développement de ce site portfolio responsive avec une esthétique cybersécurité Blue Team, hébergement sécurisé et intégration Formspree.",
       stack: ["React", "Tailwind CSS", "Framer Motion", "Vite"],
-      image: "/Projects/Portfolio.png"
+      image: "./Projects/Portfolio.png"
     }
   ];
 

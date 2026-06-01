@@ -115,7 +115,7 @@ export default function Hero() {
                 
                 {/* Embedded Profile Photo */}
                 <image 
-                  href="/IMG_9764.jpg" 
+                  href="./IMG_9764.jpg" 
                   width="100%" 
                   height="100%" 
                   preserveAspectRatio="xMidYMin slice" 

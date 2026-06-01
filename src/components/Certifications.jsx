@@ -8,7 +8,7 @@ export default function Certifications() {
       id: "CERT-ISC2-CC",
       title: "Certified in Cybersecurity (ISC²)",
       issuer: "ISC²",
-      image: "/cisco_certifications/the complete certified in cybersecurity.png",
+      image: "./cisco_certifications/the complete certified in cybersecurity.png",
       skills: "Opérations de sécurité, contrôles d'accès, sécurité des réseaux et continuité d'activité (BC/DR).",
       credId: "ISC2-CC-83921"
     },
@@ -16,7 +16,7 @@ export default function Certifications() {
       id: "CERT-CS-NET-01",
       title: "Network Technician Career Path",
       issuer: "Cisco Networking Academy",
-      image: "/cisco_certifications/Network Technician Career Path.png",
+      image: "./cisco_certifications/Network Technician Career Path.png",
       skills: "Configuration Cisco IOS, routage statique/dynamique, commutation (switching) et support technique.",
       credId: "NETACAD-NTEC-2810"
     },
@@ -24,7 +24,7 @@ export default function Certifications() {
       id: "CERT-CS-CYB-02",
       title: "Introduction to Cybersecurity",
       issuer: "Cisco Networking Academy",
-      image: "/cisco_certifications/Introduction to Cybersecurity.png",
+      image: "./cisco_certifications/Introduction to Cybersecurity.png",
       skills: "Protection des données, confidentialité, intégrité et principes essentiels de cyber-hygiène.",
       credId: "NETACAD-CYB-3910"
     },
@@ -32,7 +32,7 @@ export default function Certifications() {
       id: "CERT-CS-AI-03",
       title: "Introduction to Modern AI",
       issuer: "Cisco Networking Academy",
-      image: "/cisco_certifications/Introduction to Modern AI.png",
+      image: "./cisco_certifications/Introduction to Modern AI.png",
       skills: "Prompt engineering, architectures des grands modèles de langage (LLM) et Machine Learning.",
       credId: "NETACAD-AI-9021"
     },
@@ -40,7 +40,7 @@ export default function Certifications() {
       id: "CERT-CS-IND-04",
       title: "Industrial Networking Essentials",
       issuer: "Cisco Networking Academy",
-      image: "/cisco_certifications/Industrial Networking Essentials.png",
+      image: "./cisco_certifications/Industrial Networking Essentials.png",
       skills: "Convergence IT/OT, protocoles de communication industriels et segmentation des infrastructures critiques.",
       credId: "NETACAD-IND-4739"
     },
@@ -48,7 +48,7 @@ export default function Certifications() {
       id: "CERT-CS-SAF-05",
       title: "Digital Safety and Security Awareness",
       issuer: "Cisco Networking Academy",
-      image: "/cisco_certifications/Digital Safety and Security Awareness.png",
+      image: "./cisco_certifications/Digital Safety and Security Awareness.png",
       skills: "Détection du phishing, techniques d'ingénierie sociale et gestion sécurisée de l'identité numérique.",
       credId: "NETACAD-SAFE-8201"
     },
@@ -56,7 +56,7 @@ export default function Certifications() {
       id: "CERT-CS-IOT-06",
       title: "Introduction to IoT",
       issuer: "Cisco Networking Academy",
-      image: "/cisco_certifications/Introduction to IoT.png",
+      image: "./cisco_certifications/Introduction to IoT.png",
       skills: "Transformation numérique, architecture de capteurs connectés et Intent-Based Networking (IBN).",
       credId: "NETACAD-IOT-3910"
     },
@@ -64,7 +64,7 @@ export default function Certifications() {
       id: "CERT-CS-BAS-07",
       title: "Networking Basics",
       issuer: "Cisco Networking Academy",
-      image: "/cisco_certifications/Networking Basics.png",
+      image: "./cisco_certifications/Networking Basics.png",
       skills: "Modèles de référence OSI et TCP/IP, adressage logique IPv4/IPv6 et simulation sous Cisco Packet Tracer.",
       credId: "NETACAD-BAS-1849"
     }

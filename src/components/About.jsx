@@ -12,7 +12,7 @@ export default function About() {
       type: "future"
     },
     {
-      year: "2024 - Présent",
+      year: "2025 - Présent",
       title: "Bachelor Cybersécurité & Cycle Ingénieur",
       institution: "ESGI Toulouse",
       description: "Sécurisation réseau, analyse de logs (Blue Team), administration système durcie et tests d'intrusion (Red Team).",

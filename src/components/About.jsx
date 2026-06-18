@@ -6,9 +6,9 @@ export default function About() {
   const timeline = [
     {
       year: "Septembre 2026 (Prévu)",
-      title: "Master Sécurité Informatique",
-      institution: "CNAM Montpellier",
-      description: "Analyse de vulnérabilités, cryptographie avancée, réponse aux incidents et ingénierie de sécurité globale.",
+      title: "Master Cybersécurité",
+      institution: "ESGI Toulouse",
+      description: "Gestion des risques, cryptographie avancée, sécurité des infrastructures cloud, audits de sécurité et gouvernance RSSI.",
       type: "future"
     },
     {
